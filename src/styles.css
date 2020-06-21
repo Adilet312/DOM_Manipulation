@@ -1,0 +1,54 @@
+.container{
+  width:600px;
+  height:600px;
+  border:1px solid grey;
+  box-sizing: border-box;
+  margin: 0 auto;
+  position:relative;
+
+}
+.container div{
+  width:300px;
+  height:300px;
+  border:1px solid black;
+  text-align: center;
+  position:absolute;
+}
+.container #one{
+  left:0px;
+  background-color: lightblue;
+}
+.container #two{
+  right:0px;
+  background-color: green;
+}
+.container #three{
+  left:0px;
+  bottom:0px;
+  background-color: yellow;
+}
+.container #four{
+  right:0px;
+  bottom: 0px;
+  background-color: salmon;
+}
+.container div span{
+  position: absolute;
+  top:40%;
+  font-size: 40px;
+}
+
+section + div {
+  margin-top: 50px;
+  width:200px;
+  height:200px;
+  margin: 0 auto;
+}
+section + div button{
+  margin-top: 50px;
+  width:150px;
+  height:50px;
+ font-size: 20px;
+ background-color: black;
+ color:white; 
+}
